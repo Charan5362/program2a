@@ -1,8 +1,6 @@
-<plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.3.2</version> 
-  <configuration>
-    <webXml>src/main/webapp/web.xml</webXml>
-  </configuration>
-</plugin>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+</web-app>
