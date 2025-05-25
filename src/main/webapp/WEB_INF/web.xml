@@ -3,6 +3,6 @@
   <artifactId>maven-war-plugin</artifactId>
   <version>3.3.2</version> 
   <configuration>
-    <webXml>src/main/webapp/index.html</webXml>
+    <webXml>src/main/webapp/web.xml</webXml>
   </configuration>
 </plugin>
